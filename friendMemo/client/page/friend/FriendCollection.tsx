@@ -1,5 +1,5 @@
-import FriendList from "../component/friend/FriendList";
-import { useFriends } from "../hooks/useFriends";
+import FriendList from "../../component/friend/FriendList";
+import { useFriends } from "../../hooks/useFriends";
 
 const FriendCollection = () => {
   const { friends, isError, isLoading } = useFriends();

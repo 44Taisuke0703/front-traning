@@ -89,6 +89,33 @@
       "address": "埼玉県さいたま市10-10-10",
       "birthday": "1987-10-10",
       "memo": "趣味のイベントで知り合った"
+    },
+    {
+      "id": "ee71",
+      "name": "山崎泰輔",
+      "email": "t44150703@yahoo.co.jp",
+      "phone": "08045358258",
+      "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
+      "birthday": "2002-07-03",
+      "memo": ""
+    },
+    {
+      "id": "3d5a",
+      "name": "山崎泰輔",
+      "email": "t44150703@yahoo.co.jp",
+      "phone": "08045358258",
+      "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
+      "birthday": "2002-07-03",
+      "memo": "fsdhhsfhwhiwehrioeioweiiowehriowhioeweri"
+    },
+    {
+      "id": "",
+      "name": "山崎泰輔",
+      "email": "t44150703@yahoo.co.jp",
+      "phone": "08045358258",
+      "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
+      "birthday": "2025-05-07",
+      "memo": "test"
     }
   ]
 }
