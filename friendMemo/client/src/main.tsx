@@ -5,6 +5,8 @@ import AppLayout from "../page/AppLayout.tsx";
 import { BrowserRouter, Route, Routes } from "react-router";
 import FriendCollection from "../page/friend/FriendCollection.tsx";
 import FriendCreateForm from "../component/friend/FriendCreateForm.tsx";
+import FriendEditForm from "../page/friend/FriendEditFrom.tsx";
+import FriendSingle from "../page/friend/FriendSingle.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -19,6 +21,14 @@ createRoot(document.getElementById("root")!).render(
           <Route
             path="/friend/new"
             element={<FriendCreateForm></FriendCreateForm>}
+          ></Route>
+          <Route
+            path="/friend/:id/edit"
+            element={<FriendEditForm></FriendEditForm>}
+          ></Route>
+          <Route
+            path="/friend/:id"
+            element={<FriendSingle></FriendSingle>}
           ></Route>
         </Route>
       </Routes>

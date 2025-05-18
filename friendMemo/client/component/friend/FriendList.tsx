@@ -1,10 +1,10 @@
-import type { Friend } from "../../model/friend";
-import FriendCard from "./Friend";
+import type { Friend } from "../../model/friend.ts";
+import FriendCard from "./FriendCard.tsx";
 
-const FriendList = ({ friends }: { friends: Friend[] }) => {
+const FriendList = ({ items }: { items: Friend[] }) => {
   return (
     <>
-      {friends.map((friend) => (
+      {items.map((friend) => (
         <FriendCard key={friend.id} friend={friend} />
       ))}
     </>

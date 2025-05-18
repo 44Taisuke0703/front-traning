@@ -1,10 +1,11 @@
+import { NavLink } from "react-router";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            FriendMemo
           </a>
           <button
             className="navbar-toggler d-lg-none"
@@ -20,15 +21,12 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="collapsibleNavId">
             <ul className="navbar-nav me-auto mt-2 mt-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" href="#" aria-current="page">
-                  Home
-                  <span className="visually-hidden">(current)</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
-                </a>
+                <NavLink
+                  className="nav-link text-decoration-none"
+                  to={"/friend"}
+                >
+                  👫Friends
+                </NavLink>
               </li>
             </ul>
           </div>

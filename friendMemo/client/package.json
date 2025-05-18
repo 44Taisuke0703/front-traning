@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-     "api": "npx json-server --watch ./db/db.json -p 3000",
+    "api": "npx json-server --watch ./db/db.json -p 3000",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -15,6 +15,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-hook-form": "^7.56.4",
+    "react-paginate": "^8.3.0",
     "react-router": "^7.6.0",
     "swr": "^2.3.3"
   },
