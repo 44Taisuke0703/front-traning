@@ -1,0 +1,94 @@
+{
+  "friend": [
+    {
+      "id": "1",
+      "name": "山田 太郎",
+      "email": "taro.yamada@example.com",
+      "phone": "090-1111-2222",
+      "address": "東京都新宿区1-1-1",
+      "birthday": "1990-01-01",
+      "memo": "高校の同級生"
+    },
+    {
+      "id": "2",
+      "name": "佐藤 花子",
+      "email": "hanako.sato@example.com",
+      "phone": "080-3333-4444",
+      "address": "大阪府大阪市2-2-2",
+      "birthday": "1992-02-02",
+      "memo": "大学の友人"
+    },
+    {
+      "id": "3",
+      "name": "鈴木 一郎",
+      "email": "ichiro.suzuki@example.com",
+      "phone": "070-5555-6666",
+      "address": "北海道札幌市3-3-3",
+      "birthday": "1988-03-03",
+      "memo": "会社の同僚"
+    },
+    {
+      "id": "4",
+      "name": "田中 美咲",
+      "email": "misaki.tanaka@example.com",
+      "phone": "090-7777-8888",
+      "address": "福岡県福岡市4-4-4",
+      "birthday": "1995-04-04",
+      "memo": "サークル仲間"
+    },
+    {
+      "id": "5",
+      "name": "高橋 健",
+      "email": "ken.takahashi@example.com",
+      "phone": "080-9999-0000",
+      "address": "愛知県名古屋市5-5-5",
+      "birthday": "1991-05-05",
+      "memo": "幼なじみ"
+    },
+    {
+      "id": "6",
+      "name": "伊藤 直樹",
+      "email": "naoki.ito@example.com",
+      "phone": "070-1234-5678",
+      "address": "京都府京都市6-6-6",
+      "birthday": "1989-06-06",
+      "memo": "趣味仲間"
+    },
+    {
+      "id": "7",
+      "name": "渡辺 彩",
+      "email": "aya.watanabe@example.com",
+      "phone": "090-2345-6789",
+      "address": "神奈川県横浜市7-7-7",
+      "birthday": "1993-07-07",
+      "memo": "旅行仲間"
+    },
+    {
+      "id": "8",
+      "name": "中村 翔",
+      "email": "sho.nakamura@example.com",
+      "phone": "080-3456-7890",
+      "address": "兵庫県神戸市8-8-8",
+      "birthday": "1994-08-08",
+      "memo": "バイト先の友人"
+    },
+    {
+      "id": "9",
+      "name": "小林 由美",
+      "email": "yumi.kobayashi@example.com",
+      "phone": "070-4567-8901",
+      "address": "千葉県千葉市9-9-9",
+      "birthday": "1996-09-09",
+      "memo": "SNSで知り合った"
+    },
+    {
+      "id": "10",
+      "name": "加藤 剛",
+      "email": "go.kato@example.com",
+      "phone": "090-5678-9012",
+      "address": "埼玉県さいたま市10-10-10",
+      "birthday": "1987-10-10",
+      "memo": "趣味のイベントで知り合った"
+    }
+  ]
+}
