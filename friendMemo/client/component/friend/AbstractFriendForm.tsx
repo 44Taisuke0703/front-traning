@@ -1,13 +1,13 @@
 import { useForm } from "react-hook-form";
-import type { Friend } from "../../model/friend";
+import type { Friend, FriendInput } from "../../model/friend";
 import TextInput from "../field/TextInput";
 
 const AbstractFriendForm = ({
   defaultValues,
   onSubmit,
 }: {
-  defaultValues: Friend;
-  onSubmit: (data: Friend) => Promise<void>;
+  defaultValues: FriendInput;
+  onSubmit: (data: FriendInput) => Promise<void>;
 }) => {
   const { register, handleSubmit } = useForm<Friend>({
     defaultValues: defaultValues,
@@ -61,15 +61,18 @@ const AbstractFriendForm = ({
                     Memo
                   </label>
                   <textarea
+                    placeholder="メモ"
                     className="form-control"
                     id="memo"
                     rows={3}
                     {...register("memo")}
                   ></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary">
-                  Submit
-                </button>
+                <div className="d-flex justify-content-end">
+                  <button type="submit" className="btn btn-primary">
+                    Submit
+                  </button>
+                </div>
               </form>
             </div>
           </div>
