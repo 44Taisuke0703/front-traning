@@ -39,3 +39,4 @@ postTodo({
 // //mdn https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
 // //mdn https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
 // //mdn https://developer.mozilla.org/ja/docs/Web/API/Fetch_API/Using_Fetch
+// //mdn https://developer.mozilla.org/ja/docs/Web/API/Fetch_API/Using_Fetch#sending_a_post_request
