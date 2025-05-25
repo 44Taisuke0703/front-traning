@@ -4,7 +4,7 @@ import type { Friend } from "../../model/friend";
 const FriendCard = ({ friend }: { friend: Friend }) => {
   const { id, name, email, phone, address, birthday, memo } = friend;
   return (
-    <div className="card mt-3">
+    <div className="card mt-3 shadow">
       <div className="card-body">
         <div className="d-flex justify-content-between">
           <h4 className="card-title">{name}</h4>

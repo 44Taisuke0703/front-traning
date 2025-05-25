@@ -18,5 +18,5 @@ export type FriendInput = {
 
 export type FriendPagination = {
     totalCount: number;
-    todos: Friend[];
+    items: Friend[];
 };
