@@ -6,7 +6,7 @@ const FriendDetails = ({ friend }: { friend: Friend }) => {
   const navigate = useNavigate();
   const { id, name, email, phone, memo, address, birthday } = friend;
   return (
-    <div className="card">
+    <div className="card shadow">
       <div className="card-header">
         <h4 className="card-title">{name}</h4>
       </div>
@@ -19,7 +19,7 @@ const FriendDetails = ({ friend }: { friend: Friend }) => {
       </div>
       <div className="card-footer d-flex justify-content-end">
         <button
-          className="btn btn-danger me-3"
+          className="btn btn-outline-danger me-3"
           onClick={() => {
             deleteFriend(id).then(() => {
               navigate("/friend", {
@@ -32,7 +32,7 @@ const FriendDetails = ({ friend }: { friend: Friend }) => {
         >
           削除
         </button>
-        <NavLink className="btn btn-primary" to={`/friend/${id}/edit`}>
+        <NavLink className="btn btn-outline-primary" to={`/friend/${id}/edit`}>
           編集
         </NavLink>
       </div>

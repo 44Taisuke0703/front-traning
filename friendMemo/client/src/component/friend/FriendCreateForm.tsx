@@ -21,6 +21,7 @@ const FriendCreateForm = () => {
   return (
     <>
       <AbstractFriendForm
+        title="新規友達登録フォーム"
         defaultValues={defaultValues}
         onSubmit={onSubmit}
       ></AbstractFriendForm>

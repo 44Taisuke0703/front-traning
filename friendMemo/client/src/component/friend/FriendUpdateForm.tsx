@@ -22,6 +22,7 @@ const FriendUpdateForm = ({ friend }: { friend: Friend }) => {
   return (
     <>
       <AbstractFriendForm
+        title="友達更新フォーム"
         defaultValues={defaultValues}
         onSubmit={onSubmit}
       ></AbstractFriendForm>

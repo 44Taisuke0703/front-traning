@@ -13,7 +13,7 @@ const Flash = () => {
     <>
       {flash && (
         <div
-          className={`toast show align-items-center text-bg-primary border-0`}
+          className={`toast shadow show align-items-center text-bg-primary border-0`}
           role="alert"
           aria-live="assertive"
           aria-atomic="true"
