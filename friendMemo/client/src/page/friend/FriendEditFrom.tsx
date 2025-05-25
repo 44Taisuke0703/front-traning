@@ -2,7 +2,7 @@ import { useParams } from "react-router";
 
 import { useFriend } from "../../hooks/useFriend";
 import { lazy, Suspense } from "react";
-import SkeltonAbstractFriendForm from "../../component/friend/SkeltonAbstractFriendForm";
+import SkeltonAbstractFriendForm from "../../skelton/SkeltonAbstractFriendForm";
 
 const FriendUpdateForm = lazy(
   () => import("../../component/friend/FriendUpdateForm")

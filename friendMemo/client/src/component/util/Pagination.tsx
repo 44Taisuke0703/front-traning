@@ -57,7 +57,15 @@ function Pagination<T>({
   }
 
   if (data.items.length === 0) {
-    return <div className="offset-2 col-8">友達が見つかりません</div>;
+    return (
+      <div className="offset-2 col-8 d-flex flex-column align-items-center justify-content-center mt-5 mb-5">
+        <span style={{ fontSize: "3rem", color: "#adb5bd" }}>😢</span>
+        <div className="mt-3 fw-bold fs-5">友達が見つかりません</div>
+        <div className="mt-2 text-secondary">
+          条件を変えて再検索してみてください。
+        </div>
+      </div>
+    );
   }
 
   return (

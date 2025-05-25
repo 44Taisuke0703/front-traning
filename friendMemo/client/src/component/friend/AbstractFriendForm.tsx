@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form";
 import type { Friend, FriendInput } from "../../model/friend";
 import TextInput from "../field/TextInput";
+import TextAreaInput from "../field/TextAreaInput";
 
 const AbstractFriendForm = ({
   title,
@@ -27,9 +28,6 @@ const AbstractFriendForm = ({
           <div className="card mt-3 shadow">
             <div className="card-body">
               <h4 className="card-title">{title}</h4>
-              <p className="card-text">
-                Please fill in the form below to create a new friend.
-              </p>
               <form onSubmit={handleSubmit(onSubmit)}>
                 <TextInput
                   register={register}
@@ -39,7 +37,7 @@ const AbstractFriendForm = ({
                   placeholder="氏名"
                   config={{ required: "氏名は必須です" }}
                   errors={errors}
-                ></TextInput>
+                />
                 <TextInput
                   register={register}
                   path="email"
@@ -48,7 +46,7 @@ const AbstractFriendForm = ({
                   placeholder="メールアドレス"
                   config={{ required: "メールアドレスは必須です" }}
                   errors={errors}
-                ></TextInput>
+                />
                 <TextInput
                   register={register}
                   path="phone"
@@ -63,37 +61,29 @@ const AbstractFriendForm = ({
                   path="address"
                   label="住所"
                   type="address"
-                  placeholder="住所は必須です"
+                  placeholder="住所"
                   config={{ required: "住所は必須です" }}
                   errors={errors}
-                ></TextInput>
+                />
                 <TextInput
                   register={register}
                   path="birthday"
                   label="誕生日"
                   type="date"
-                  placeholder="誕生日は必須です"
+                  placeholder="誕生日"
                   config={{ required: "誕生日は必須です" }}
                   errors={errors}
-                ></TextInput>
+                />
 
-                <div className="mb-3">
-                  <label htmlFor="memo" className="form-label">
-                    Memo
-                  </label>
-                  <textarea
-                    placeholder="メモ"
-                    className="form-control"
-                    id="memo"
-                    rows={3}
-                    {...register("memo", { required: "メモは必須です" })}
-                  ></textarea>
-                  {errors.memo && (
-                    <>
-                      <div className="text-danger">{errors.memo?.message}</div>
-                    </>
-                  )}
-                </div>
+                <TextAreaInput
+                  register={register}
+                  path="memo"
+                  rows={3}
+                  label="メモ"
+                  placeholder="メモ"
+                  config={{ required: " メモは必須です" }}
+                  errors={errors}
+                />
                 <div className="d-flex justify-content-end">
                   <button type="submit" className="btn btn-outline-primary">
                     Submit

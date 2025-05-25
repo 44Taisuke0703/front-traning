@@ -1,51 +1,6 @@
 {
   "friend": [
     {
-      "name": "高橋 健",
-      "email": "ken.takahashi@example.com",
-      "phone": "080-9999-0000",
-      "address": "愛知県名古屋市5-5-5",
-      "birthday": "1991-05-05",
-      "memo": "幼なじみ",
-      "id": "5"
-    },
-    {
-      "id": "9",
-      "name": "小林 由美",
-      "email": "yumi.kobayashi@example.com",
-      "phone": "070-4567-8901",
-      "address": "千葉県千葉市9-9-9",
-      "birthday": "1996-09-09",
-      "memo": "SNSで知り合った"
-    },
-    {
-      "id": "3d5a",
-      "name": "山崎泰輔",
-      "email": "t44150703@yahoo.co.jp",
-      "phone": "08045358258",
-      "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
-      "birthday": "2002-07-03",
-      "memo": "fsdhhsfhwhiwehrioeioweiiowehriowhioeweri"
-    },
-    {
-      "id": "ee74",
-      "name": "山崎泰輔",
-      "email": "t44150703@yahoo.co.jp",
-      "phone": "08045358258",
-      "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
-      "birthday": "2025-05-06",
-      "memo": "test"
-    },
-    {
-      "id": "11",
-      "name": "佐藤 花子",
-      "email": "hanako.sato@example.com",
-      "phone": "090-1111-2222",
-      "address": "東京都渋谷区1-1-1",
-      "birthday": "1992-11-11",
-      "memo": "高校の友人"
-    },
-    {
       "id": "12",
       "name": "松本 大輔",
       "email": "daisuke.matsumoto@example.com",
@@ -80,24 +35,6 @@
       "address": "京都府京都市5-5-5",
       "birthday": "1994-03-15",
       "memo": "旅行仲間"
-    },
-    {
-      "name": "石井 亮",
-      "email": "ryo.ishii@example.com",
-      "phone": "070-6666-7777",
-      "address": "兵庫県神戸市6-6-6",
-      "birthday": "1995-04-16",
-      "memo": "バイト先の友人",
-      "id": "16"
-    },
-    {
-      "id": "17",
-      "name": "森田 彩",
-      "email": "aya.morita@example.com",
-      "phone": "090-7777-8888",
-      "address": "福岡県福岡市7-7-7",
-      "birthday": "1996-05-17",
-      "memo": "SNSで知り合った"
     },
     {
       "id": "18",
@@ -323,6 +260,177 @@
       "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
       "birthday": "2025-04-29",
       "memo": "test"
+    },
+    {
+      "id": "a101",
+      "name": "田中 一郎",
+      "email": "ichiro.tanaka@example.com",
+      "phone": "080-1234-5678",
+      "address": "東京都港区1-1-1",
+      "birthday": "1980-01-01",
+      "memo": "高校の同級生"
+    },
+    {
+      "id": "a102",
+      "name": "鈴木 次郎",
+      "email": "jiro.suzuki@example.com",
+      "phone": "090-2345-6789",
+      "address": "大阪府大阪市2-2-2",
+      "birthday": "1981-02-02",
+      "memo": "大学の友人"
+    },
+    {
+      "id": "a103",
+      "name": "佐藤 三郎",
+      "email": "saburo.sato@example.com",
+      "phone": "070-3456-7890",
+      "address": "愛知県名古屋市3-3-3",
+      "birthday": "1982-03-03",
+      "memo": "会社の同僚"
+    },
+    {
+      "id": "a104",
+      "name": "高橋 四郎",
+      "email": "shiro.takahashi@example.com",
+      "phone": "080-4567-8901",
+      "address": "北海道札幌市4-4-4",
+      "birthday": "1983-04-04",
+      "memo": "趣味仲間"
+    },
+    {
+      "id": "a105",
+      "name": "伊藤 五郎",
+      "email": "goro.ito@example.com",
+      "phone": "090-5678-9012",
+      "address": "福岡県福岡市5-5-5",
+      "birthday": "1984-05-05",
+      "memo": "旅行仲間"
+    },
+    {
+      "id": "a106",
+      "name": "渡辺 六郎",
+      "email": "rokuro.watanabe@example.com",
+      "phone": "070-6789-0123",
+      "address": "京都府京都市6-6-6",
+      "birthday": "1985-06-06",
+      "memo": "バイト先の友人"
+    },
+    {
+      "id": "a107",
+      "name": "山本 七美",
+      "email": "nanami.yamamoto@example.com",
+      "phone": "080-7890-1234",
+      "address": "神奈川県横浜市7-7-7",
+      "birthday": "1986-07-07",
+      "memo": "SNSで知り合った"
+    },
+    {
+      "id": "a108",
+      "name": "中村 八重子",
+      "email": "yaeko.nakamura@example.com",
+      "phone": "090-8901-2345",
+      "address": "兵庫県神戸市8-8-8",
+      "birthday": "1987-08-08",
+      "memo": "サークル仲間"
+    },
+    {
+      "id": "a109",
+      "name": "小林 九郎",
+      "email": "kurou.kobayashi@example.com",
+      "phone": "070-9012-3456",
+      "address": "千葉県千葉市9-9-9",
+      "birthday": "1988-09-09",
+      "memo": "幼なじみ"
+    },
+    {
+      "id": "a110",
+      "name": "加藤 十子",
+      "email": "tokoko.kato@example.com",
+      "phone": "080-0123-4567",
+      "address": "埼玉県さいたま市10-10-10",
+      "birthday": "1989-10-10",
+      "memo": "高校の先輩"
+    },
+    {
+      "id": "a111",
+      "name": "佐々木 一美",
+      "email": "kazumi.sasaki@example.com",
+      "phone": "080-1111-2223",
+      "address": "東京都世田谷区11-11-12",
+      "birthday": "1990-01-11",
+      "memo": "高校の友人"
+    },
+    {
+      "id": "a112",
+      "name": "山田 太郎",
+      "email": "taro.yamada@example.com",
+      "phone": "090-2222-3334",
+      "address": "大阪府吹田市12-12-13",
+      "birthday": "1991-02-12",
+      "memo": "大学の友人"
+    },
+    {
+      "id": "a113",
+      "name": "田村 美咲",
+      "email": "misaki.tamura@example.com",
+      "phone": "070-3333-4445",
+      "address": "愛知県岡崎市13-13-14",
+      "birthday": "1992-03-13",
+      "memo": "会社の同僚"
+    },
+    {
+      "id": "a114",
+      "name": "井上 剛",
+      "email": "go.inoue@example.com",
+      "phone": "080-4444-5556",
+      "address": "北海道函館市14-14-15",
+      "birthday": "1993-04-14",
+      "memo": "趣味仲間"
+    },
+    {
+      "id": "a115",
+      "name": "松田 さくら",
+      "email": "sakura.matsuda@example.com",
+      "phone": "090-5555-6667",
+      "address": "福岡県久留米市15-15-16",
+      "birthday": "1994-05-15",
+      "memo": "旅行仲間"
+    },
+    {
+      "id": "a116",
+      "name": "大西 亮太",
+      "email": "ryota.onishi@example.com",
+      "phone": "070-6666-7778",
+      "address": "京都府舞鶴市16-16-17",
+      "birthday": "1995-06-16",
+      "memo": "バイト先の友人"
+    },
+    {
+      "id": "a118",
+      "name": "村田 剛志",
+      "email": "tsuyoshi.murata@example.com",
+      "phone": "090-8888-9990",
+      "address": "兵庫県姫路市18-18-19",
+      "birthday": "1997-08-18",
+      "memo": "サークル仲間"
+    },
+    {
+      "id": "a119",
+      "name": "石田 美咲",
+      "email": "misaki.ishida@example.com",
+      "phone": "070-9999-0001",
+      "address": "千葉県松戸市19-19-20",
+      "birthday": "1998-09-19",
+      "memo": "幼なじみ"
+    },
+    {
+      "id": "a120",
+      "name": "藤井 翔太",
+      "email": "shota.fujii@example.com",
+      "phone": "080-0000-1112",
+      "address": "埼玉県川口市20-20-21",
+      "birthday": "1999-10-20",
+      "memo": "高校の先輩"
     }
   ]
 }
