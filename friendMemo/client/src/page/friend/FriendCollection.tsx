@@ -28,7 +28,7 @@ const FriendCollection = () => {
               友達を追加
             </NavLink>
           </div>
-          <div className=" offset-2 col-8 mt-1">
+          <div className=" offset-1 col-10 offset-lg-2 col-lg-8 mt-1">
             <SearchInput></SearchInput>
           </div>
 

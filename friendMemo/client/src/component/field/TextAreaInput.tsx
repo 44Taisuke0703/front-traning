@@ -47,7 +47,6 @@ const TextAreaInput = <T extends FieldValues>({
             <div className="text-danger">{errors[path]?.message as string}</div>
           )}
       </div>
-      ;
     </>
   );
 };

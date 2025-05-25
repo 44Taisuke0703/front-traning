@@ -1,0 +1,9 @@
+.flash-animate {
+  transition: opacity 400ms, transform 400ms cubic-bezier(0.4,0,0.2,1);
+  opacity: 0;
+  transform: translateY(-40px);
+}
+.flash-animate.show {
+  opacity: 1;
+  transform: translateY(0);
+}

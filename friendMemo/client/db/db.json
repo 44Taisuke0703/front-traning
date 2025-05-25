@@ -1,148 +1,13 @@
 {
   "friend": [
     {
-      "id": "12",
-      "name": "松本 大輔",
-      "email": "daisuke.matsumoto@example.com",
-      "phone": "080-2222-3333",
-      "address": "大阪府大阪市2-2-2",
-      "birthday": "1990-12-12",
-      "memo": "大学の先輩"
-    },
-    {
-      "id": "13",
-      "name": "山本 美優",
-      "email": "miyu.yamamoto@example.com",
-      "phone": "070-3333-4444",
-      "address": "神奈川県横浜市3-3-3",
-      "birthday": "1993-01-13",
-      "memo": "趣味仲間"
-    },
-    {
-      "id": "14",
-      "name": "渡辺 健太",
-      "email": "kenta.watanabe@example.com",
-      "phone": "090-4444-5555",
-      "address": "愛知県名古屋市4-4-4",
-      "birthday": "1991-02-14",
-      "memo": "会社の後輩"
-    },
-    {
-      "id": "15",
-      "name": "中川 さくら",
-      "email": "sakura.nakagawa@example.com",
-      "phone": "080-5555-6666",
-      "address": "京都府京都市5-5-5",
-      "birthday": "1994-03-15",
-      "memo": "旅行仲間"
-    },
-    {
-      "id": "18",
-      "name": "藤田 剛",
-      "email": "go.fujita@example.com",
-      "phone": "080-8888-9999",
-      "address": "北海道札幌市8-8-8",
-      "birthday": "1997-06-18",
-      "memo": "サークル仲間"
-    },
-    {
-      "id": "19",
-      "name": "小川 美咲",
-      "email": "misaki.ogawa@example.com",
-      "phone": "070-9999-0000",
-      "address": "千葉県千葉市9-9-9",
-      "birthday": "1998-07-19",
-      "memo": "幼なじみ"
-    },
-    {
-      "id": "20",
-      "name": "村上 翔太",
-      "email": "shota.murakami@example.com",
-      "phone": "090-0000-1111",
-      "address": "埼玉県さいたま市10-10-10",
-      "birthday": "1999-08-20",
-      "memo": "趣味のイベントで知り合った"
-    },
-    {
-      "id": "21",
-      "name": "高木 由美",
-      "email": "yumi.takagi@example.com",
-      "phone": "080-1111-2222",
-      "address": "東京都新宿区11-11-11",
-      "birthday": "2000-09-21",
-      "memo": "高校の同級生"
-    },
-    {
-      "id": "22",
-      "name": "西村 拓也",
-      "email": "takuya.nishimura@example.com",
-      "phone": "070-2222-3333",
-      "address": "大阪府堺市12-12-12",
-      "birthday": "2001-10-22",
-      "memo": "大学の友人"
-    },
-    {
-      "id": "23",
-      "name": "岡田 美穂",
-      "email": "miho.okada@example.com",
-      "phone": "090-3333-4444",
-      "address": "神奈川県川崎市13-13-13",
-      "birthday": "2002-11-23",
-      "memo": "趣味仲間"
-    },
-    {
-      "id": "24",
-      "name": "加藤 大地",
-      "email": "daichi.kato@example.com",
-      "phone": "080-4444-5555",
-      "address": "愛知県豊田市14-14-14",
-      "birthday": "2003-12-24",
-      "memo": "会社の同僚"
-    },
-    {
-      "id": "25",
-      "name": "斎藤 さやか",
-      "email": "sayaka.saito@example.com",
-      "phone": "070-5555-6666",
-      "address": "京都府宇治市15-15-15",
-      "birthday": "2004-01-25",
-      "memo": "旅行仲間"
-    },
-    {
-      "id": "27",
-      "name": "長谷川 美紀",
-      "email": "miki.hasegawa@example.com",
-      "phone": "080-7777-8888",
-      "address": "福岡県北九州市17-17-17",
-      "birthday": "2006-03-27",
-      "memo": "SNSで知り合った"
-    },
-    {
-      "id": "28",
-      "name": "木村 剛",
-      "email": "go.kimura@example.com",
-      "phone": "070-8888-9999",
-      "address": "北海道旭川市18-18-18",
-      "birthday": "2007-04-28",
-      "memo": "サークル仲間"
-    },
-    {
-      "id": "29",
       "name": "原田 美咲",
       "email": "misaki.harada@example.com",
       "phone": "090-9999-0000",
       "address": "千葉県船橋市19-19-19",
       "birthday": "2008-05-29",
-      "memo": "幼なじみ"
-    },
-    {
-      "id": "b5c0",
-      "name": "山崎泰輔",
-      "email": "t44150703@yahoo.co.jp",
-      "phone": "08045358258",
-      "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
-      "birthday": "2025-04-29",
-      "memo": "test"
+      "memo": "幼なじみ",
+      "id": "29"
     },
     {
       "id": "7e64",
@@ -154,13 +19,13 @@
       "memo": "test"
     },
     {
-      "id": "774d",
       "name": "山崎泰輔",
       "email": "t44150703@yahoo.co.jp",
       "phone": "08045358258",
       "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
       "birthday": "2025-04-29",
-      "memo": "test"
+      "memo": "test3",
+      "id": "774d"
     },
     {
       "id": "87c5",
@@ -242,15 +107,6 @@
       "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
       "birthday": "2025-04-30",
       "memo": "test"
-    },
-    {
-      "id": "3168",
-      "name": "山崎泰輔",
-      "email": "t44150703@yahoo.co.jp",
-      "phone": "08045358258",
-      "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
-      "birthday": "2025-04-30",
-      "memo": ""
     },
     {
       "id": "4e09",
@@ -431,6 +287,24 @@
       "address": "埼玉県川口市20-20-21",
       "birthday": "1999-10-20",
       "memo": "高校の先輩"
+    },
+    {
+      "name": "山崎泰輔",
+      "email": "t44150703@yahoo.co.jp",
+      "phone": "08045358258",
+      "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
+      "birthday": "2025-05-29",
+      "memo": "weropojrjew",
+      "id": "5bqTrTZ"
+    },
+    {
+      "name": "山崎泰輔",
+      "email": "t44150703@yahoo.co.jp",
+      "phone": "08045358258",
+      "address": "兵庫県神戸市灘区篠原本町3-1-19-103",
+      "birthday": "2025-04-30",
+      "memo": "weropojrjew",
+      "id": "Bkm3MF8"
     }
   ]
 }
