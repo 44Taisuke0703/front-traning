@@ -46,7 +46,7 @@ function Pagination<T>({
 
   if (isLoading || data === undefined) {
     return (
-      <div className="offset-2 col-8 mt-3">
+      <div className=" offset-1 col-10 offset-lg-2 col-lg-8 mt-3">
         {SkeletonComponent ? (
           <SkeletonComponent></SkeletonComponent>
         ) : (
@@ -58,7 +58,7 @@ function Pagination<T>({
 
   if (data.items.length === 0) {
     return (
-      <div className="offset-2 col-8 d-flex flex-column align-items-center justify-content-center mt-5 mb-5">
+      <div className="offset-1 col-10 offset-lg-2 col-lg-8 d-flex flex-column align-items-center justify-content-center mt-5 mb-5">
         <span style={{ fontSize: "3rem", color: "#adb5bd" }}>😢</span>
         <div className="mt-3 fw-bold fs-5">友達が見つかりません</div>
         <div className="mt-2 text-secondary">
@@ -70,10 +70,10 @@ function Pagination<T>({
 
   return (
     <div className="row">
-      <div className="offset-2 col-8">
+      <div className="offset-1 col-10 offset-lg-2 col-lg-8">
         <ListComponent items={data.items} />
       </div>
-      <div className="d-flex justify-content-center offset-2 col-8 mt-3">
+      <div className="d-flex justify-content-center offset-1 col-10 offset-lg-2 col-lg-8 mt-3">
         <ReactPaginate
           className="pagination shadow"
           breakLabel="..."

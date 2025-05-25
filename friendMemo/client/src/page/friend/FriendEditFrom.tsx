@@ -20,7 +20,7 @@ const FriendEditFrom = () => {
     <Suspense
       fallback={<SkeltonAbstractFriendForm></SkeltonAbstractFriendForm>}
     >
-      <FriendUpdateForm friend={friend}></FriendUpdateForm>;
+      <FriendUpdateForm friend={friend}></FriendUpdateForm>
     </Suspense>
   );
 };
