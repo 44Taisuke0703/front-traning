@@ -17,7 +17,7 @@ export const useSearchName = () => {
         register={register}
         type="text"
         path="name"
-        placeholder="氏名"
+        placeholder="氏名を入力してください"
       ></TextInput>
     );
   }, [register]);

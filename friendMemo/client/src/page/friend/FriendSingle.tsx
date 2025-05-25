@@ -1,7 +1,7 @@
 import { useParams } from "react-router";
 import { useFriend } from "../../hooks/useFriend";
 import FriendDetails from "../../component/friend/FriendDetails";
-import SkeltonFriendDetails from "../../component/friend/SkeltonFriendDetails";
+import SkeltonFriendDetails from "../../skelton/SkeltonFriendDetails";
 
 const FriendSingle = () => {
   const { id } = useParams<{ id: string }>();

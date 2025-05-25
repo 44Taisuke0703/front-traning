@@ -4,7 +4,7 @@ import Pagination from "../../component/util/Pagination";
 import { useFriendsPaginate } from "../../hooks/useFriendsPaginate";
 
 import { useSearchName } from "../../hooks/useSearchName";
-import SkeltonFriendCard from "../../component/friend/SkeletonFriendCard";
+import SkeltonFriendCard from "../../skelton/SkeletonFriendCard";
 
 const SkeltonComponent = () => {
   return (
